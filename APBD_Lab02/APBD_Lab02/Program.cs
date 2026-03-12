@@ -7,7 +7,7 @@ static int CalculateAverage(int[] values)
     int sum = 0;
     for (int i = 0; i < values.Length; i++)
     {
-        sum += t;
+        sum += values[i];
     }
     return sum / values.Length;
 }
