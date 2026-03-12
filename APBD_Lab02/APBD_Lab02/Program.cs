@@ -35,5 +35,6 @@ static int CalculateMin(int[] values)
             min = value;
         }
     }
+    Console.WriteLine("Zad7: feature-conflict :))");
     return min;
 }
